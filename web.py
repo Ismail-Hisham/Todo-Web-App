@@ -12,7 +12,6 @@ slt.title("My Todo App")
 slt.subheader("Todos")
 slt.write("This app is to increase your productivity")
 
-#complete a todo
 for index, todo in enumerate(todos):
     checkbox = slt.checkbox(todo, key=todo)
     if checkbox == True:
